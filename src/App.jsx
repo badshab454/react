@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       {count}
-      <button onClick={() => setCount(count + 10)}>Increment use button</button>
+      <button onClick={() => setCount(count + 10)}>Increment button</button>
     </>
   );
 };
