@@ -1,15 +1,13 @@
-import { useState } from "react";
-import "./App.css";
+import React, {useState} from 'react';
 
 const App = () => {
   const [count, setCount] = useState(0);
-
   return (
     <>
-      {count}
-      <button onClick={() => setCount(count + 10)}>Increment button</button>
+      <p>{count}liked</p>
+      <button onClick={()=> {setCount(count+1)}}>Like</button>
     </>
-  );
-};
+  )
+}
 
 export default App;
