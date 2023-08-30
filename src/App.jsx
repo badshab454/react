@@ -1,12 +1,7 @@
-import MyButton from "./components/MyButton";
+
 
 const App = () => {
-  return (
-    <>
-        <h1>Welcome to my app</h1>
-        <MyButton />
-    </>
-  );
+  return <h1>Chai aur React.</h1>;
 };
 
 export default App;
